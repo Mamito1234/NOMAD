@@ -11,8 +11,13 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware): void {
-        //
+        // Register custom route middleware aliases here
+        $middleware->alias([
+            'admin' => \App\Http\Middleware\AdminOnly::class,
+            '2fa.confirmed' => \App\Http\Middleware\EnsureTwoFactorConfirmed::class, // ✅ 2FA check
+        ]);
     })
     ->withExceptions(function (Exceptions $exceptions): void {
         //
-    })->create();
+    })
+    ->create();
