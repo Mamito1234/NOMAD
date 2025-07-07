@@ -5,9 +5,11 @@ namespace App\Http\Controllers;
 use App\Models\Trip;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
+use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 
 class TripController extends Controller
 {
+    use AuthorizesRequests;
     /**
      * Display a listing of the user's trips.
      */
