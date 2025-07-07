@@ -1,10 +1,10 @@
-# 🔐 NOMAD: Secure Laravel CRUD System
+#  NOMAD: Secure Laravel CRUD System
 
 This is a Laravel-based CRUD system built with advanced **security enhancements** including **Two-Factor Authentication (2FA)**, **RBAC**, **CSRF/XSS protection**, **SQL injection prevention**, and **secure file handling**.
 
 ---
 
-## 📌 Table of Contents
+##  Table of Contents
 
 - [Project Overview](#project-overview)
 - [Features](#features)
@@ -18,13 +18,13 @@ This is a Laravel-based CRUD system built with advanced **security enhancements*
 
 ---
 
-## 🧠 Project Overview
+## Project Overview
 
 NOMAD is a secure Laravel-based CRUD application that allows users to manage **trips** and **destinations** with user authentication and admin capabilities. The application includes robust **backend security features** such as input validation, role-based access control, and 2FA.
 
 ---
 
-## ✨ Features
+##  Features
 
 - ✅ User Registration & Login
 - ✅ Email Verification
@@ -39,7 +39,7 @@ NOMAD is a secure Laravel-based CRUD application that allows users to manage **t
 
 ---
 
-## 🛡️ Security Enhancements
+##  Security Enhancements
 
 ### 🔑 Authentication & Authorization
 - Laravel Fortify for Login, Registration, Password Reset
@@ -47,21 +47,21 @@ NOMAD is a secure Laravel-based CRUD application that allows users to manage **t
 - Custom Login Pipeline to enforce 2FA
 - RBAC using Middleware (`admin`, `user` roles)
 
-### 🧬 CSRF & XSS Protection
+###  CSRF & XSS Protection
 - CSRF token included in every form
 - All Blade outputs escaped using `{{ }}`
 - Sanitization on user input
 
-### 🗄️ SQL Injection Prevention
+###  SQL Injection Prevention
 - Use of Eloquent ORM (parameterized queries)
 - Server-side validation using Form Requests
 
-### 📁 File Upload Protection
+###  File Upload Protection
 - File type & size restrictions
 - Laravel's `store` method for safe storage
 - Upload directory access restricted via `.htaccess` (Apache)
 
-### 🧱 Secure Headers Middleware
+###  Secure Headers Middleware
 Added global middleware:
 - `Content-Security-Policy`
 - `X-Frame-Options`
@@ -71,7 +71,7 @@ Added global middleware:
 
 ---
 
-## 👥 Team & Responsibilities
+##  Team & Responsibilities
 
 | Name     | Role                         | Responsibilities |
 |----------|------------------------------|------------------|
@@ -81,7 +81,7 @@ Added global middleware:
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Laravel 12.x
 - Laravel Fortify
@@ -93,7 +93,7 @@ Added global middleware:
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ```bash
 # 1. Clone the repo
@@ -118,7 +118,7 @@ php artisan serve
 
 ---
 
-## 🧭 Usage
+##  Usage
 
 * Visit `/register` to create a user.
 * Visit `/dashboard` after login.
@@ -127,7 +127,7 @@ php artisan serve
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```
 /app
@@ -149,13 +149,13 @@ php artisan serve
 
 ---
 
-## 📜 License
+##  License
 
 This project is open-sourced for educational purposes.
 
 ---
 
-## 🤝 Contributions
+##  Contributions
 
 Pull requests are welcome for enhancements, especially in areas of security and UI improvements.
 
