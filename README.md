@@ -127,6 +127,12 @@ php artisan serve
 
 ---
 
+<<<<<<< HEAD
+=======
+##  ZAP Reports Link
+    [https://drive.google.com/drive/folders/1oO-dmAfocjPUi2w2MHlayuluJto8z2dn?usp=drive_link](https://drive.google.com/drive/folders/1oO-dmAfocjPUi2w2MHlayuluJto8z2dn?usp=drive_link)
+
+>>>>>>> 9c44fb3 (Added new folders Original Codes and ZAP Reports and updated README.md)
 ##  Folder Structure
 
 ```
