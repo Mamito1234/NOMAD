@@ -26,22 +26,22 @@ NOMAD is a secure Laravel-based CRUD application that allows users to manage **t
 
 ##  Features
 
-- ✅ User Registration & Login
-- ✅ Email Verification
-- ✅ Two-Factor Authentication (2FA)
-- ✅ Role-Based Access Control (RBAC)
-- ✅ Admin Panel for User & Trip Management
-- ✅ Trip & Destination CRUD
-- ✅ Save/Remove Destinations
-- ✅ Secure File Upload Handling
-- ✅ Middleware-based Security Headers
-- ✅ SQL Injection & XSS Protection
+-  User Registration & Login
+-  Email Verification
+-  Two-Factor Authentication (2FA)
+-  Role-Based Access Control (RBAC)
+-  Admin Panel for User & Trip Management
+-  Trip & Destination CRUD
+-  Save/Remove Destinations
+-  Secure File Upload Handling
+-  Middleware-based Security Headers
+-  SQL Injection & XSS Protection
 
 ---
 
 ##  Security Enhancements
 
-### 🔑 Authentication & Authorization
+###  Authentication & Authorization
 - Laravel Fortify for Login, Registration, Password Reset
 - Two-Factor Authentication via TOTP
 - Custom Login Pipeline to enforce 2FA
