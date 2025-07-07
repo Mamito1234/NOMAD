@@ -75,9 +75,9 @@ Added global middleware:
 
 | Name     | Role                         | Responsibilities |
 |----------|------------------------------|------------------|
-| **Moctar** | Leader, Security Enhancer     | - 2FA via Laravel Fortify<br>- RBAC & Middleware<br>- XSS & CSRF Prevention<br>- Project Coordination<br>- GitHub & Documentation |
-| **Dinnie** | Developer, ZAP Scanner        | - OWASP ZAP Scanning<br>- Client & Server Side Input Validation<br>- Assisted in XSS/CSRF Mitigation |
-| **Zaed**   | Developer, Security Configurator | - SQL Injection Prevention<br>- File Upload Security<br>- Web Server Security Configuration |
+| **Moctar (2133559)** | Leader, Security Enhancer     | - 2FA via Laravel Fortify<br>- RBAC & Middleware<br>- XSS & CSRF Prevention<br>- Project Coordination<br>- GitHub & Documentation |
+| **Dinnie (2124291)** | Developer, ZAP Scanner        | - OWASP ZAP Scanning<br>- Client & Server Side Input Validation<br>- Assisted in XSS/CSRF Mitigation |
+| **Zaed (2217059)**   | Developer, Security Configurator | - SQL Injection Prevention<br>- File Upload Security<br>- Web Server Security Configuration |
 
 ---
 
